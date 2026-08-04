@@ -1,0 +1,242 @@
+/* Custom CSS Design Tokens & Luxury Theme */
+:root {
+  --color-primary: #4f772d;
+  --color-secondary: #31572c;
+  --color-accent: #ecf39e;
+  --color-bg-dark: #132a13;
+  --color-olive: #90a955;
+  --color-light-bg: #f8faf6;
+  --color-text-dark: #0f1e0f;
+  --color-text-muted: #4a5d4a;
+  --radius-card: 18px;
+  --radius-pill: 50rem;
+  --shadow-soft: 0 12px 32px rgba(19, 42, 19, 0.08);
+  --shadow-hover: 0 20px 40px rgba(19, 42, 19, 0.16);
+  --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-light-bg);
+  color: var(--color-text-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom Palette Utility Classes */
+.bg-brand-dark {
+  background-color: var(--color-bg-dark) !important;
+}
+
+.bg-brand-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-brand-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-brand-accent {
+  background-color: var(--color-accent) !important;
+}
+
+.bg-brand-olive {
+  background-color: var(--color-olive) !important;
+}
+
+.bg-brand-light {
+  background-color: var(--color-light-bg) !important;
+}
+
+.text-brand-primary {
+  color: var(--color-primary) !important;
+}
+
+.text-brand-secondary {
+  color: var(--color-secondary) !important;
+}
+
+.text-brand-accent {
+  color: var(--color-accent) !important;
+}
+
+.text-brand-dark {
+  color: var(--color-bg-dark) !important;
+}
+
+.text-brand-olive {
+  color: var(--color-olive) !important;
+}
+
+/* Rounded Utilities */
+.rounded-18 {
+  border-radius: var(--radius-card) !important;
+}
+
+.rounded-pill-custom {
+  border-radius: var(--radius-pill) !important;
+}
+
+/* Buttons */
+.btn-brand-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-pill);
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  transition: var(--transition-smooth);
+  box-shadow: 0 4px 14px rgba(79, 119, 45, 0.25);
+}
+
+.btn-brand-primary:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(49, 87, 44, 0.35);
+}
+
+.btn-brand-accent {
+  background-color: var(--color-accent);
+  color: var(--color-bg-dark);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-pill);
+  padding: 0.75rem 1.75rem;
+  font-weight: 700;
+  transition: var(--transition-smooth);
+}
+
+.btn-brand-accent:hover {
+  background-color: #e2eb88;
+  color: var(--color-bg-dark);
+  box-shadow: 0 8px 20px rgba(236, 243, 158, 0.4);
+}
+
+.btn-brand-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-pill);
+  padding: 0.65rem 1.65rem;
+  font-weight: 600;
+  transition: var(--transition-smooth);
+}
+
+.btn-brand-outline:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-brand-outline-light {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: var(--radius-pill);
+  padding: 0.65rem 1.65rem;
+  font-weight: 600;
+  transition: var(--transition-smooth);
+}
+
+.btn-brand-outline-light:hover {
+  background-color: #ffffff;
+  color: var(--color-bg-dark);
+  border-color: #ffffff;
+}
+
+/* Form Focus Glow Rings */
+.focus-glow:focus {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 0.25rem rgba(79, 119, 45, 0.25) !important;
+}
+
+/* Glassmorphism Components */
+.glass-nav {
+  background: rgba(19, 42, 19, 0.88) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: var(--transition-smooth);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: var(--shadow-soft);
+  border-radius: var(--radius-card);
+}
+
+.glass-dark-card {
+  background: rgba(19, 42, 19, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(236, 243, 158, 0.18);
+  color: #ffffff;
+  border-radius: var(--radius-card);
+}
+
+/* Card Lift & Hover Effects */
+.luxury-card {
+  background: #ffffff;
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(79, 119, 45, 0.08);
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition-smooth);
+  overflow: hidden;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover .img-hover-zoom img {
+  transform: scale(1.08);
+}
+
+/* Custom Badge */
+.badge-pill-brand {
+  background-color: rgba(236, 243, 158, 0.25);
+  color: var(--color-secondary);
+  border: 1px solid rgba(79, 119, 45, 0.2);
+  border-radius: var(--radius-pill);
+  padding: 0.4rem 0.9rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-dark-pill {
+  background-color: var(--color-bg-dark);
+  color: var(--color-accent);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-olive);
+}
