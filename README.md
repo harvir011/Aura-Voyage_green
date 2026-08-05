@@ -65,6 +65,40 @@ AuraVoyage/
 
 ---
 
+# 📸 Preview
+
+## 🏠 Home
+
+![Home](README Assets/home.png)
+
+---
+
+## 🌍 Destinations
+
+![Destinations](README Assets/destinations.png)
+
+---
+
+## 📬 Contact
+
+![Contact](README Assets/contact.png)
+
+
+---
+
+## 📬 Info Page
+
+![Contact](README Assets/demo.png)
+
+
+---
+
+## 📬 Book your Trip
+
+![Contact](README Assets/book_trip.png)
+
+
+---
 ## 🚀 Getting Started
 
 ### Clone the Repository
