@@ -69,33 +69,33 @@ AuraVoyage/
 
 ## 🏠 Home
 
-![Home](README assets/home.png)
+![Home](README-assets/home.png)
 
 ---
 
 ## 🌍 Destinations
 
-![Destinations](README assets/destinations.png)
+![Destinations](README-assets/destinations.png)
 
 ---
 
 ## 📬 Contact
 
-![Contact](README assets/contact.png)
+![Contact](README-assets/contact.png)
 
 
 ---
 
 ## 📬 Info Page
 
-![Contact](README assets/demo.png)
+![Contact](README-assets/demo.png)
 
 
 ---
 
 ## 📬 Book your Trip
 
-![Contact](README assets/book_trip.png)
+![Contact](README-assets/book_trip.png)
 
 
 ---
