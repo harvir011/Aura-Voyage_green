@@ -101,7 +101,7 @@ AuraVoyage/
 ---
 ## 🚀 Getting Started
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/harvir011/AuraVoyage.git
@@ -143,13 +143,13 @@ http://localhost:5173
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Project Objectives:
 
 * Build a responsive tourism website using React.
 * Demonstrate component-based architecture.
 * Implement client-side routing.
 * Consume a public REST API.
-* Deliver a clean and engaging user experience.
+* Deliver  clean and engaging user experience.
 
 ---
 
@@ -174,17 +174,11 @@ Feel free to fork this repository, create a feature branch, and submit a Pull Re
 
 ---
 
-## 📄 License
-
-This project is developed for educational purposes.
-
----
-
 ## 👨‍💻 Author
 
 Developed with ❤️ using **React**, **Vite**, and **Bootstrap 5**.
 
-If you found this project helpful, don't forget to ⭐ the repository!
+
 
 
 
