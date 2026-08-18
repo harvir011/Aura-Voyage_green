@@ -176,7 +176,7 @@ Feel free to fork this repository, create a feature branch, and submit a Pull Re
 
 ## 👨‍💻 Author
 
-Developed with ❤️ using **React**, **Vite**, and **Bootstrap 5**.
+Developed with ❤️ by **harvir011** using **React**, **Vite**, and **Bootstrap 5**.
 
 
 
